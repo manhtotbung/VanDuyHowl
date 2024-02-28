@@ -12,20 +12,22 @@
 
         .ep
         {
-            
             margin-inline:1px;
             border: 2px solid #6ed2fd;
             border-radius: 10px;
             padding: 12px 20px;
         }
+        div[for^="cho"] {   color: magenta; }
+        div[for$="er"] {  color: yellow;}
+        div[for*="ut"] { color: cyan; }
     </style>
 </head>
-<body>
+<body style="background-color:#604271;">
 
     <h1 style="text-align: center;color: #037ee3;">Liên hệ với chúng tôi</h1>
     <from>
-    <p >
-        <input type="text" name="HoTen" class="ep" size="auto(default)" placeholder="Họ và tên của bạn*">
+    <p  >
+        <input type="text" name="HoTen" class="ep" size="50" placeholder="Họ và tên của bạn*">
     </p>
     <p>
         <input type="text" name="Email" class="ep" size="50" placeholder="Email của bạn*">
@@ -43,6 +45,11 @@
         <input type="submit" value="Gửi" style="background-color: rgb(234, 149, 245);" >
     </p>
     </from>
-    
+    ​
+    <div for="chocolate">Chocolate</div>​
+    <div for="peanut">Peanut</div>​
+    <div for="butter">Butter</div>​
+    <div>Jelly</div>
 </body>
 </html>
+
