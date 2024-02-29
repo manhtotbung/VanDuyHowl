@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog cá nhân của tôi</title>
+    <style>
+        div{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 10px 12px 10px 10px;
+            display:flex;
+            float: left ;
+            border-radius: 10px;
+            
+        }
+        .col{
+            text-align: center;
+            width:100%;
+        }
+
+        a{border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin: 0px 100px 0px 10px;
+            font-size: 30px;
+            border-radius: 5px;
+        }
+    
+        @media (max-width:576px) {
+            .colum1{width: 100%;}
+        }
+        @media (min-width:577px), (max-width:768px){
+            .colum2{width: 49%;}
+        }
+        @media (min-width:769px) {
+            .colum3{width: 33%;}
+        }
+        
+        
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="col">
+        <h1 style="text-align: center;color:rgb(85, 113, 236)">Blog cá nhân của tôi</h1>
+        <a href="https://daotao.vnua.edu.vn/"><img src="download.png" width="150"> </a> <a href="#info" >My info</a> <a href="#mycl">My class</a> <a href="#myl">My love</a>
+    </div>
+    <br>
+    <div id="info" class="colum1">
+        <ul>
+            <li>Nguyen Van Duy</li>
+            <li>30/07/2004</li>
+            <li>ABC</li>
+        </ul>
+    </div>
+    <div id="mycl" class="colum2">
+        <ul>
+            <li>Hoc vien Nong nghiep Viet Nam</li>
+            <li>Chuyen nganh:CNPMA</li>
+            <li>Khoa:CNTT</li>
+        </ul>
+    </div>
+    <div id="myl" class="colum3">
+        <ul>
+            <li>Nghe nhac</li>
+            <li>Nau an</li>
+            <li>The duc</li>
+        </ul>
+    </div>
+</body>
+</html>
