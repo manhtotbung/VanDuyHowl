@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiển thị hình ảnh</title>
+
+    <style>
+        .ha{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        div.ha img{width: 20rem;}
+
+        @media(max-width:576px){
+            .ha1 img{width: auto;}
+        }
+        @media(max-width:768px){
+            .ha1 img{width:576px;}
+        }
+        @media(max-width:992px){
+            .ha1 img{width: 768px;}
+        }
+        @media(max-width:1200px){
+            .ha1 img{width: 992px;}
+        }
+    
+
+    </style>
+
+</head>
+<body>
+    <h1 style="text-align: center;">Hình ảnh Học viện Nông Nghiệp</h1>
+    <div class="ha">
+
+        <!--1-->
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_1059-17_05_04_824.jpg">
+        </div>
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/s2-14_05_48_512.jpg" >
+        </div>
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/s3-14_05_48_325.jpg">
+        </div>
+
+        <!--2-->
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_0983-17_05_08_802.jpg" >
+        </div>
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_1049-17_05_05_994.jpg" >
+        </div>
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2016/IMG_0987-17_05_06_806.jpg" >
+        </div>
+
+        <!--3-->
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2019/hinh_anh_dep_hv024-16_09_14_834.jpg" > 
+        </div>    
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/IMG_9790-17_15_35_997.JPG">
+        </div>
+        <div class="ha1">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/1hoat_dong_sinh_vien041-16_33_51_323.jpg">
+        </div>
+
+        <!--4-->
+        <div class="ha4-6">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/1hoat_dong_sinh_vien047-16_33_52_477.JPG" >
+        </div>
+        <div class="ha6-6">
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/1hoat_dong_sinh_vien016-16_39_10_172.jpg" >
+        </div>
+        <div class="ha6-6">    
+            <img src="https://file.vnua.edu.vn/DATA/0/IMAGES/2018/1hoat_dong_sinh_vien030-16_40_39_201.JPG" >
+        </div>
+    </div>
+</body>
+</html>
