@@ -3,73 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog cá nhân của tôi</title>
+    <title>Blog cá nhân của cún</title>
+
     <style>
-        div{
+        .blog, .mhe{
+            width:100%;
+            background-color: rgb(231, 133, 133);
+            color:rgb(33, 47, 47);
+            text-align: center;
+            padding:10px;
+        }
+        
+        .content{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+        .col1, .col2, .col3{
+            padding:10px;
+            box-sizing: border-box;
+        }
+       
+        a{
+            padding:1px;
             border: 2px solid black;
             border-collapse: collapse;
             padding: 5px;
-            margin: 10px 12px 10px 10px;
-            display:flex;
-            float: left ;
-            border-radius: 10px;
-            
-        }
-        .col{
-            text-align: center;
-            width:100%;
+            margin: 0 auto;
+            padding:1px;
+            font-size: 20px;
+            border-radius: 7px;
         }
 
-        a{border: 2px solid black;
-            border-collapse: collapse;
-            padding: 5px;
-            margin: 0px 100px 0px 10px;
-            font-size: 30px;
-            border-radius: 5px;
+        @media(max-width:576px){
+            .col1{width:100%}
         }
-    
-        @media (max-width:576px) {
-            .colum1{width: 100%;}
+        @media(min-width:576px),(max-width:768px){
+            .col2{width:49%}
         }
-        @media (min-width:577px), (max-width:768px){
-            .colum2{width: 49%;}
+        @media(min-width:769px){
+            .col3{width:33%}
         }
-        @media (min-width:769px) {
-            .colum3{width: 33%;}
-        }
-        
-        
-       
-
-
     </style>
 </head>
 <body>
-    <div class="col">
-        <h1 style="text-align: center;color:rgb(85, 113, 236)">Blog cá nhân của tôi</h1>
-        <a href="https://daotao.vnua.edu.vn/"><img src="download.png" width="150"> </a> <a href="#info" >My info</a> <a href="#mycl">My class</a> <a href="#myl">My love</a>
+    <div class="iteam">
+        <div class="blog">
+            <h1>Blog cá nhân</h1>
+            <a href="#info">MyInfo</a>
+            <a href="#class">MyClass</a>
+            <a href="#profile">Myprofile</a>
+        </div>
+        <div class="content">
+            <div id="info" class="col1">
+                <ul>
+                    <li>Họ tên:Nguyễn Văn Duy</li>
+                    <li>Ngày sinh:30/07/2004</li>
+                    <li>Địa chỉ:Miền đông nước Anh</li>
+                </ul>
+            </div>
+            <div id="class" class="col2">
+                <ul>
+                    <li>Học viện Nông nghiệp Việt Nam</li>
+                    <li>Khoa:CNTT</li>
+                    <li>Chuyên ngành:CNPM</li>
+                    <li>Lớp:CNPMA</li>
+                </ul>
+            </div>
+            <div id="profile" class="col3">
+                <ul>
+                    <li>Đang học năm 2 đại học</li>
+                    <li>Thích nghe nhạc,tìm hiểu về nghệ thuật</li>
+                    <li>Khá ít nói</li>
+                </ul>
+            </div>
+        </div>
+    <div class="mhe">
+        <div>
+            <h1>Mhe</h1>
+        </div>
     </div>
-    <br>
-    <div id="info" class="colum1">
-        <ul>
-            <li>Nguyen Van Duy</li>
-            <li>30/07/2004</li>
-            <li>ABC</li>
-        </ul>
     </div>
-    <div id="mycl" class="colum2">
-        <ul>
-            <li>Hoc vien Nong nghiep Viet Nam</li>
-            <li>Chuyen nganh:CNPMA</li>
-            <li>Khoa:CNTT</li>
-        </ul>
-    </div>
-    <div id="myl" class="colum3">
-        <ul>
-            <li>Nghe nhac</li>
-            <li>Nau an</li>
-            <li>The duc</li>
-        </ul>
-    </div>
+    
 </body>
 </html>
