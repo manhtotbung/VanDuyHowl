@@ -4,6 +4,9 @@
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
 }
 
+.icon{
+    
+}
 .grid{
     width:1200px;
     max-width: 100%;
@@ -20,7 +23,7 @@
 }
 
 .header__navbar-iteam{
-    margin:0px 8px 0px -2px;
+    margin:0px 25px 0px -20px;
 }
 
 .header__navbar-iteam,
@@ -80,28 +83,18 @@
     
 }
 /*container */
-.grid_width_full{
-    width:100%;
+.container-fluid{
+    background-color: #dae3f3;
+    display:flex;
+    flex-wrap:wrap;
 }
-.grid_row{
+
+.row{
     width:100%;
     display:inline-flex;
     flex-wrap: wrap;
     margin-left: -6px;
     margin-right: -6px;
-}
-.grid_col-2{
-    padding:15px 6px 0px 6px;
-    width:33.3333%;
-}
-
-.grid_col-10{
-    padding:15px 6px 0px 6px;
-    width:166.6667%;
-}
-
-.container-fluid{
-    background-color: #dae3f3;
 }
 
 .Menu{
@@ -109,7 +102,7 @@
     border-radius: 2px;
 }
 .Menu__danhmuc{
-    padding:8px 30px;
+    padding:8px 10px;
     border-bottom:2px solid #dae3f3;
     font-size: 20px;
 }
@@ -123,7 +116,7 @@
     text-decoration: none; /*Xóa gạch chân */
     color:#7e8897;
     font-size: 15px;
-    padding:8px 30px;
+    padding:8px 20px;
     display:block;
     position:relative;
     right:0px;
@@ -134,11 +127,6 @@
     right:-5px;
 }
 
-.SP{
-    background-color:white;
-    padding:5px;
-    
-}
 .btn{
     margin:0 2px;
     min-width: 124px;
@@ -149,27 +137,17 @@
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
 }
 
-.SP_item{
-
-}
-
-.grid_col-2-4{
-    padding:8px 6px 0px 6px;
-    width:20%;
-}
 .SP_item-info{
-    border-radius:2px;
-    background-color: white; 
+    max-width:auto;
+    background-color: #ffffff;
 }
+
 .SP_item-info__book{
     
 }
+
 .SP_item-info-img{
     width:100%;
-}
-
-.SP_item-info-name{
-    margin:0 10px;
 }
 
 .SP_item-info-tagName{
@@ -202,6 +180,7 @@
 
 /* footer */
 .footer__say{
+    padding:6px 0;
     text-align: center;
     height:40px;
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
