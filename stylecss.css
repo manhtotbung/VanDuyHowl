@@ -2,11 +2,9 @@
 .header {
     height: 120px;
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
+
 }
 
-.icon{
-    
-}
 .grid{
     width:1200px;
     max-width: 100%;
@@ -23,7 +21,7 @@
 }
 
 .header__navbar-iteam{
-    margin:0px 25px 0px -20px;
+    margin:5px 13px;
 }
 
 .header__navbar-iteam,
@@ -48,15 +46,13 @@
 .header__logo_search{
     display:flex;
     align-items: center;
-   
 }
 
 .header__logo{
-    margin-left:30px;
-    width:200px;
+    width:140px;
 }
 .header__logo-img{
-    width:170px;
+    width:70px;
 }
 
 .header__search{
@@ -97,14 +93,12 @@
     margin-right: -6px;
 }
 
+#accordion{
+    margin:5px;
+}
 .Menu{
     background-color: #f8fafc;
     border-radius: 2px;
-}
-.Menu__danhmuc{
-    padding:8px 10px;
-    border-bottom:2px solid #dae3f3;
-    font-size: 20px;
 }
 
 .Menu__list{
@@ -127,17 +121,8 @@
     right:-5px;
 }
 
-.btn{
-    margin:0 2px;
-    min-width: 124px;
-    height:34px;
-    border-radius: 2px;
-    font-size: 15px;
-    align-items: center;
-    background-image: linear-gradient(0,#cad3e7,#1b63cf);
-}
-
 .SP_item-info{
+    margin:5px;
     max-width:auto;
     background-color: #ffffff;
 }
@@ -151,11 +136,13 @@
 }
 
 .SP_item-info-tagName{
+    align-items: stretch;
     text-decoration: none;
     color:black;
 }
 
 .SP_item-info-money{
+    align-items: stretch;
     margin:10px;
 }
 .SP_item-info-money-old{
@@ -179,19 +166,30 @@
 }
 
 /* footer */
+.footer{
+    
+}
 .footer__say{
     padding:6px 0;
     text-align: center;
-    height:40px;
+    height:auto;
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
+     
 }
 .footer__information{ 
     display:flex;
-    justify-content:space-between;
+    justify-content:space-evenly;
+    
 }
 .footer__information-item,
 .footer__information-link{
     color:black;
     text-decoration: none;
     list-style: none;
+}
+.footer__information-link:hover{
+    color:rgb(86, 48, 224);
+}
+.icon{
+    color:#3391cf;
 }
