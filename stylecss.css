@@ -17,7 +17,7 @@
 }
 
 .header__navbar-list{
-    list-style: none;
+    list-style: none;/*Xóa chấm của list*/
 }
 
 .header__navbar-iteam{
@@ -192,4 +192,79 @@
 }
 .icon{
     color:#3391cf;
+}
+
+/* Chi tiết sản phẩm */
+.info_sp{
+    margin:5px;
+    display:flex;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.info_sp--img{
+    width:100%;
+}
+
+.info_name{
+    list-style: none;
+}
+.info_list{
+    font-size: 12px;
+    font-weight: 500;
+}
+.info_list-color{
+    font-weight: 700;
+    color:red;
+    text-decoration: none;
+}
+.Buy{
+    font-size: 20px;
+    font-weight: 500;
+    color:white;
+    background-color: red;
+    padding:10px;
+    margin-left: 33px; 
+    border:1px;
+    border-radius: 5px;
+
+}
+.info_list-km{
+    font-weight: 500;
+}
+.info_link{
+    text-decoration: none;
+}
+
+.info_focus{
+    background-color: white;
+    border-radius: 2px;
+}
+.info_focus-sp{
+    list-style: none;
+}
+.info_focus-tieude{
+    margin-left:-25px;
+}
+.info_focus-list{
+    font-size: 15px;
+    font-weight: 400;
+}
+.info_focus-nameTag{
+    text-align: center;
+    color:red;
+}
+.info_focus-mota{
+    font-size: 15px;
+    font-weight: 400;
+}
+.Buy_color{
+ 
+    font-size: 15px;
+    font-weight: 500;
+    color:white;
+    background-color: red;
+    padding:5px;
+    border:1px;
+    border-radius: 5px;
 }
