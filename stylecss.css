@@ -1,4 +1,10 @@
 /* header */
+*{
+    box-sizing: border-box;
+}
+div{
+    display:block;
+}
 .header {
     height: 120px;
     background-image: linear-gradient(0,#cad3e7,#1b63cf);
@@ -123,7 +129,7 @@
 
 .SP_item-info{
     margin:5px;
-    max-width:auto;
+    max-width:100%;
     background-color: #ffffff;
 }
 
@@ -195,88 +201,155 @@
 }
 
 /* Chi tiết sản phẩm */
-.info_sp{
-    margin:5px;
-    display:flex;
-    background-color: white;
-    border-radius: 2px;
-}
-
-.info_sp--img{
-    width:100%;
-}
-
-.info_name{
-    list-style: none;
-}
-.info_list{
-    font-size: 12px;
-    font-weight: 500;
-}
-.info_list-color{
-    font-weight: 700;
-    color:red;
-    text-decoration: none;
-}
-.Lua_chon{
-    margin-left: 33px; 
+.trangchu{
     
 }
-.Buy{
-    font-size: 20px;
-    font-weight: 500;
-    color:white;
-    background-color: red;
-    padding:10px;
-    margin:5px 0;
-    border:2px;
-    border-radius: 5px;
+
+.trangchu-chitiet{
+    display:flex;
+    margin-left: -30px;
 }
-.Them{
-    font-size: 20px;
-    font-weight: 500;
-    color:red;
+.trangchu-chitiet2{
+    border-radius:5px;
     background-color: white;
-    padding:10px;
-    border:1px solid black;
-    border-radius: 5px;
-}
-.info_list-km{
-    font-weight: 500;
-}
-.info_link{
-    text-decoration: none;
 }
 
-.info_focus{
-    background-color: white;
-    border-radius: 2px;
-}
-.info_focus-sp{
+.li{
     list-style: none;
 }
-.info_focus-tieude{
-    margin-left:-25px;
+
+.li-link{
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(8, 102, 253);
 }
-.info_focus-list{
-    font-size: 15px;
-    font-weight: 400;
+.li-link:hover{
+    color:black;
 }
-.info_focus-nameTag{
+.thongtin-sp{
+    
+}
+.img{
+    max-width:fit-content;
+    width:100%;
     text-align: center;
-    color:red;
 }
-.info_focus-mota{
-    font-size: 15px;
+.sp-sach{
+    display:flex;
+}
+.tieude{
+    text-align: center;
+}
+.theloai{
+    text-decoration: none;
     font-weight: 400;
 }
-.Buy_color{
- 
+.list-thongtin{
+    list-style: none;
+    text-transform: inherit;
+    color: #777676;
+}
+.thongtin-demuc{
+    display:block;
+}
+.xephang{
+    display:block;
+    padding:5px 30px;
+
+}
+.xephang2{
+    padding:5px 30px;
+}
+.like{
+    color:white;
+    background-color:#1877f2 ;
+    border-radius: 5px;
+    margin:0 5px;
+}
+.share{
+    color:white;
+    background-color:#1877f2 ;
+    border-radius: 5px;
+    margin:0 5px;
+}
+.like-share{
+    
+}
+.buy{
+    text-align: center;
+}
+.button_buy{
+    text-align: center;
+    background-color:red;
+    border:1px soild white;
+    border-radius: 5px;
+    margin:5px;
+}
+.muangay{
+    color:white;
+    padding:5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+.muangay:hover{
+    color:black;
+    
+}
+
+.noidung{
+    border-radius:5px;
+    background-color: white;
+}
+.noidung-chitiet{
+    display:inline-block;
+}
+
+/*Liệt kê danh mục sản phẩm*/
+
+.lietke-sp{
+    display:flex;
+}
+.Sanpham{
+    width:100%;
+    margin:5px;
+    max-width:100%;
+    background-color: #ffffff
+}
+.Sanpham-info{
+    
+}
+.Sanpham-info-img{
+    text-align: center;
+    width:100%;
+}
+.Sanpham-info-name{
+
+}
+.Sanpham-info-tagName{
+    align-items: stretch;
+    text-decoration: none;
+    color:black;
+}
+.Sanpham-info-money{
+    align-items: stretch;
+    margin:10px;
+}
+.Sanpham-info-money-old{
+    font-size: 14px;
+    color:#7e8897;
+    text-decoration: line-through; /* gạch ngang */
+}
+.Sanpham-info-money-new{
     font-size: 15px;
     font-weight: 500;
-    color:white;
+    color:red;
+}
+.Sanpham-info-money-sale{
+    font-size: 14px;
+    font-weight: 500;
     background-color: red;
-    padding:5px;
+    color:rgb(249, 245, 245);
     border:1px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
