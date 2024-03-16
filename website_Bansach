@@ -19,7 +19,8 @@
             <div class="grid ">
                 <nav class="header__navbar ">
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-iteam ">Home</li>   
+                        
+                        <li class="header__navbar-iteam ">Trang chủ</li>   
                     </ul>
                     <ul class="header__navbar-list">
                         <li class="header__navbar-iteam">
@@ -78,10 +79,10 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
                                 <div class="SP_item-info">
                                     <div class="SP_item-info__book" >
-                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
                                     </div>
                                     <div class="SP_item-info-name">    
-                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_blank"><h5>Vào vùng nước xoáy</h5></a>
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
                                     </div>
                                     <div class="SP_item-info-money">
                                         <span class="SP_item-info-money-old">230.000₫</span>
@@ -93,14 +94,74 @@
                             <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
                                 <div class="SP_item-info">
                                     <div class="SP_item-info__book" >
-                                        <img class="SP_item-info-img" src="https://bookbuy.vn/Res/Images/Product/vao-vung-nuoc-xoay_128546_1.jpg">
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
                                     </div>
                                     <div class="SP_item-info-name">    
-                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5>Vào vùng nước xoáy</h5></a>
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
                                     </div>
                                     <div class="SP_item-info-money">
                                         <span class="SP_item-info-money-old">230.000₫</span>
-                                        <span class="SP_item-info-money-new">189.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
+                                        <span class="SP_item-info-money-sale">-15%</span>        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                <div class="SP_item-info">
+                                    <div class="SP_item-info__book" >
+                                        <img class="SP_item-info-img" src="https://cdnnvd.com/nettruyen/thumb/one-piece.jpg" alt="One Piece" referrerpolicy="origin">
+                                    </div>
+                                    <div class="SP_item-info-name">    
+                                        <a class="SP_item-info-tagName" href="file:///F:/Btap_code_web/Chi_tiet_sp.html" target="_self"><h5 style="margin:0 7px;">One piece</h5></a>
+                                    </div>
+                                    <div class="SP_item-info-money">
+                                        <span class="SP_item-info-money-old">230.000₫</span>
+                                        <span class="SP_item-info-money-new">123,000đ</span>
                                         <span class="SP_item-info-money-sale">-15%</span>        
                                     </div>
                                 </div>
