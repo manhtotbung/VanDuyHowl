@@ -54,10 +54,11 @@ div{
 .header__logo_search{
     display:flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .header__logo{
-    width:140px;
+    width:100px;
 }
 .header__logo-img{
     width:70px;
@@ -66,7 +67,7 @@ div{
 .header__search{
     display:flex;
     height:34px;
-    width:60%;
+    width:50%;
     border-radius: 2px;
 }
 
